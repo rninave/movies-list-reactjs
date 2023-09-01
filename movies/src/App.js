@@ -4,6 +4,7 @@ import Home from './Home';
 import { Routes ,Route } from 'react-router-dom';
 import SingleMovie from './SingleMovie';
 
+
  function App() {  
   return (
     <div className="App"> 
@@ -11,7 +12,6 @@ import SingleMovie from './SingleMovie';
       <Route path='/' element={<Home/>} />
       <Route path='movie/:id' element={<SingleMovie/>}/>
      </Routes>
-
     </div>
   );
 }
