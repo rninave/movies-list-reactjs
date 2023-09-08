@@ -1,8 +1,10 @@
 
-.movie{
-    color: black;
-    
-}
 .h-200{
     height: 200px;
+}
+.w-95{
+width: 95%;
+}
+.box:hover{
+    background-image: linear-gradient(135deg, #A0FE65 10%, #FA016D 100%);
 }
