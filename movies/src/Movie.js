@@ -33,7 +33,7 @@ const Movie = () => {
                                 />
                                 <p className='text-center text-dark m-0'>{Year}</p>
                                 <h5 className='d-flex justify-content-center fw-bold text-dark'>
-                                    {movietitle.length > 14 ? `${movietitle}...` : movietitle}
+                                    {movietitle.length >= 14 ? `${movietitle}...` : movietitle}
                                 </h5>
                             </div>
                         </Col>

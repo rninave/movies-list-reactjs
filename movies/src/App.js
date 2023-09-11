@@ -6,6 +6,7 @@ import SingleMovie from './SingleMovie';
 import Rating from './Rating';
 
 
+
  function App() {  
   return (
     <div className="App"> 
